@@ -34,7 +34,7 @@ See the comment at the top of [`tests/cart-guest-checkout.spec.ts`](./tests/cart
 
 | Tool                                     | Version                          |
 | ---------------------------------------- | -------------------------------- |
-| Node.js                                  | 20.x (or any current LTS)        |
+| Node.js                                  | 22.x (or any current LTS)        |
 | TypeScript                               | ^6.0                             |
 | @playwright/test                         | ^1.49                            |
 | @faker-js/faker                          | ^9.3 (dynamic test data, Task 1) |
@@ -101,7 +101,7 @@ Task 1 and Task 2 target unrelated sites, so `playwright.config.ts` defines two 
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) 20.x or newer (includes npm)
+- [Node.js](https://nodejs.org/) 22.x or newer (includes npm)
 
 ### Install
 
