@@ -1,0 +1,19 @@
+node_modules/
+
+# Playwright artifacts
+/test-results/
+/playwright-report/
+/playwright/.cache/
+/blob-report/
+
+# Build / misc
+dist/
+*.log
+.env
+.env.local
+
+# Editor
+.idea/
+.vscode/*
+!.vscode/extensions.json
+.DS_Store

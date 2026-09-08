@@ -1,0 +1,26 @@
+{
+  "name": "qa-automation-task",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright + TypeScript automation suite - QA Automation Engineer test task (Task 1: hybrid cart & guest checkout scenario; Task 2: webscraper.io catalog analysis)",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@faker-js/faker": "^9.3.0",
+    "@types/node": "^22.10.0",
+    "@eslint/js": "^9.16.0",
+    "eslint": "^9.16.0",
+    "typescript-eslint": "^8.18.0",
+    "prettier": "^3.9.5",
+    "typescript": "^6.0.3"
+  }
+}
